@@ -261,6 +261,7 @@ a{
         width: 100%;
         /* background-color: white; */
         padding: 0%;
+        margin-bottom: 180px;
     }
     .home-img{
         /* background-color: red; */
@@ -320,6 +321,7 @@ a{
     }
     .social-icons a{
         margin-left: 30px;
+        /* width: 10rem; */
     }
     @keyframes cursor {
         to{
@@ -328,16 +330,28 @@ a{
     }
     #about{
         margin-top: 50px;
-        background-color: aqua;
+        /* background-color: aqua; */
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
+        padding-top: 90px;
+    }
+    .about-content{
+        /* flex-direction: column; */
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .about-me{
+        background-color: aquamarine;
+        width: 100%;
     }
 }
 
 @media(max-width:528px){
     body{
         overflow-x: hidden;
-        background-color: cornsilk;
+        /* background-color: cornsilk; */
     }
     #home{
         /* margin-top: 250px; */
@@ -366,15 +380,21 @@ a{
         margin: 0;
     }
     .about-content{
-        background-color: aqua;
+        /* background-color: aqua; */
         width: 100%;
         padding: none;
         display: flex;
         flex-direction: column;
         margin-bottom: 440px;
-        justify-content: center;
+        /* justify-content: center; */
     }
     .img-about{
+        display: none;
+    }
+    .img-about img{
+        display: none;
+    }
+    /* .img-about{
         width: 100%;
         background-color: blueviolet;
     }
@@ -383,7 +403,7 @@ a{
         margin-bottom: 50px;
         margin-left: 220px;
         display: none;
-    }
+    } */
     .about-me{
         width: 200%;
     }
@@ -392,7 +412,7 @@ a{
         width: 152%;
     }
     #contact{
-        background-color: beige;
+        /* background-color: beige; */
         display: flex;
         height: auto;
         width: 120%;
@@ -431,7 +451,7 @@ a{
 }
 .about-me{
     width: 50%;
-    background-color: #161616;
+    /* background-color: #161616; */
     display: flex;
     flex-direction: column;
     /* justify-content: center;
